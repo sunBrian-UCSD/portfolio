@@ -1,11 +1,25 @@
+:root {
+  color-scheme: light dark;
+}
+
 body {
-  /* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
   font: 100%/1.5 system-ui;
+  background-color: canvas;
+  color: canvastext;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+nav {
+  --border-color: oklch(50% 10% 200 / 40%);
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
 }
