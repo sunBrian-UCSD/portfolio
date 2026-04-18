@@ -7,9 +7,9 @@ function $$(selector, context = document) {
 let navLinks = $$("nav a");
 
 let pages = [
-  { url: 'portfolio/index.html', title: 'Home' },
-  { url: 'projects/index.html', title: 'Projects' },
-  { url: 'contact/index.html', title:'Contact Me' },
+  { url: './', title: 'Home' },
+  { url: 'projects/', title: 'Projects' },
+  { url: 'contact/', title:'Contact Me' },
 ];
 
 const BASE_PATH =
