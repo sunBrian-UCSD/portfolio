@@ -8,8 +8,8 @@ let navLinks = $$("nav a");
 
 let pages = [
   { url: 'portfolio/index.html', title: 'Home' },
-  { url: 'portfolio/projects/', title: 'Projects' },
-  { url: 'portfolio/contact/', title:'Contact Me' },
+  { url: 'portfolio/projects/index.html', title: 'Projects' },
+  { url: 'portfolio/contact/index.html', title:'Contact Me' },
 ];
 
 const BASE_PATH =
@@ -72,5 +72,3 @@ a.classList.toggle(
   'current',
   a.host === location.host && a.pathname === location.pathname,
 );
-
-
