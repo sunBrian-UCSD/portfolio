@@ -8,8 +8,8 @@ let navLinks = $$("nav a");
 
 let pages = [
   { url: 'portfolio/index.html', title: 'Home' },
-  { url: 'portfolio/projects/index.html', title: 'Projects' },
-  { url: 'portfolio/contact/index.html', title:'Contact Me' },
+  { url: 'projects/index.html', title: 'Projects' },
+  { url: 'contact/index.html', title:'Contact Me' },
 ];
 
 const BASE_PATH =
